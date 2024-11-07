@@ -1,14 +1,14 @@
 # ch 4.2.1. main.py
 
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHBoxLayout
 class Calculator(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
         
-    def initUI(self)
-        self.btn1=QPushButton('Message', self):
+    def initUI(self):
+        self.btn1=QPushButton('Message', self)
         self.setWindowTitle('Calculator')
         self.resize(256,256)
         self.show()
