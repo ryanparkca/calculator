@@ -1,7 +1,7 @@
 # ch 4.2.1. main.py
 
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QLineEdit
 class Calculator(QWidget):
     def __init__(self):
         super().__init__()
